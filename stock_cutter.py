@@ -284,8 +284,6 @@ def main():
         for idx, roll in enumerate(consumed_big_rolls):
           print(f"Шаблон для разреза балки #{idx + 1}:{sorted(roll[1], reverse=True)}", file=out)
         print('\n', file=out)
-
-
   else:
     print("Данные для заготовок не были введены!")
 
